@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "product": "Grok Bot",
+  "version": "0.18.0",
+  "artifacts": [
+    {
+      "platform": "win32",
+      "architecture": "x64",
+      "path": "windows-x64/Grok_Bot_0.18.0_Setup.exe",
+      "bytes": 125825552,
+      "sha256": "464079a15ef5fa8b61ccea8fffcc78f63cfcf6df65fb0ad5e725d8b95f7e437e",
+      "sourceUrl": "https://downloads.cursor.com/grokbot/stable/win32-x64/0.18.0/Grok_Bot_0.18.0_Setup.exe"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+node_modules/
+/.cache/
+/.build/
+/dist/
+/src/app/dist/
+/recovered/
+/recovery/
+/reports/
+/work/
+*.log
+
+# Local credentials, provider sessions, and transcripts must never be
+# published. Keep a documented, placeholder-only example when needed.
+.env
+.env.*
+!.env.example
+/auth.json
+/codex-auth.json
+/chatgpt-auth.json
+/sand-secrets.json
+/inference-router-transcript.json
+.codex/
+*.pem
+*.p12
+*.pfx
+
+# Machine-local harness and inspection scratch.
+/.tmp*/
+/.grok-*/
+/.playwright-cli/
+/.tmp-*.mjs
+/frontend/.tmp-*/
+/.http-probe.*/
+/.mcp-bridge.*/
+/.openrouter-probe.*/
+/.router-*/
+
+# One-off extracted bundle copies at the repository root. Canonical payloads
+# live under src/app/dist and recovered/frontend.
+/host-main.cjs
+/main.cjs
+/index-*.js
+/katex-*.js
+/mermaid.core-*.js
+/xlsx-*.js
+/index.html
+
+/research-archives/original/**/*.exe
+/research-archives/original/**/*.dmg

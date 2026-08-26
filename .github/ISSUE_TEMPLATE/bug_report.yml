@@ -1,0 +1,50 @@
+name: Bug report
+description: Report a reproducible problem in the reconstructed application
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: Do not paste credentials, provider sessions, private transcripts, or unredacted personal paths.
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - Windows x64
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Reconstructed version or commit
+      placeholder: 0.18.0-reconstructed.1 or commit SHA
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction steps
+      description: Give the smallest sanitized sequence that reproduces the issue.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Safety check
+      options:
+        - label: I removed credentials, session data, private transcripts, and personal paths from this report.
+          required: true
