@@ -9,7 +9,6 @@ Before sharing a change, run:
 npm ci
 npm run check
 npm run frontend:build
-npm run publication:secrets
 ```
 
 On Windows x64, after `npm run bootstrap:windows`, packaging changes should

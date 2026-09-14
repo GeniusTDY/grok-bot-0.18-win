@@ -6,7 +6,6 @@ packaging.
 
 ## Verification
 
-- [ ] `npm run publication:secrets`
 - [ ] `npm run check`
 - [ ] `npm run frontend:build`
 - [ ] Platform packaging/verification completed when relevant
